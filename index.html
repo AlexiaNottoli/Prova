@@ -1,119 +1,154 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexia e Alberto scazzano!!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container header-container">
-            <div class="logo">Alexia</div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#contacts">Contatti</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container header-container">
+        <div class="logo">Alexia</div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contacts">Contatti</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="hero">
+      <div class="container hero-content">
+        <h1>Ciao, sono <br />Alexia!</h1>
+        <h3>Questo sito fa un po' schifo</h3>
 
-        <div class="container hero-content">
-
-            <h1>Ciao, sono <br>Alexia!</h1>
-            <h3>Questo sito fa un po' schifo</h3>
-
-            <a class="hero-cta" href="#">Pensa che palle</a>
-
-        </div>
+        <a class="hero-cta" href="#">Pensa che palle</a>
+      </div>
     </section>
 
     <section class="works-menu">
-        <div class="container">
-            <ul>
-                <li><a class="button" href="#pulsanti">Pulsante 1</a></li>
-                <li><a class="button" href="#pulsanti">Pulsante 2</a></li>
-                <li><a class="button" href="#pulsanti">Pulsante 3</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <ul>
+          <li><a class="button" href="#pulsanti">Pulsante 1</a></li>
+          <li><a class="button" href="#pulsanti">Pulsante 2</a></li>
+          <li><a class="button" href="#pulsanti">Pulsante 3</a></li>
+        </ul>
+      </div>
     </section>
 
     <section class="works">
-        <a class="anchors" id="works"></a>
-        <div class="container">
-
-            <div id="pulsanti" class="works-item">
-                <div class="works-item-tags">Che / Cacata / 2024</div>
-                <h2>Titolo h2</h2>
-            </div>
-            
-            <div class="work-info">
-                <div class="work-info-label">About</div>
-                <div class="work-info-content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, necessitatibus.
-                    </p>
-                </div>
-            </div>
-
-            <div class="work-info">
-                <div class="work-info-label">Output</div>
-                <div class="work-info-content">
-                    <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque officia aliquam nesciunt. Ducimus natus, quae vero reprehenderit blanditiis autem temporibus aperiam, voluptate, rem delectus optio culpa maiores quo modi dolorem!                    
-                    </p>
-                </div>
-            </div>
-
-            <div class="images">
-                <img class="image-right" src="img/pexels-sohi-807598.jpg" alt="Foglie">
-                <img src="img/DwellDone. (2).png" alt="logo">
-                <img class="image-left" src="img/4.png" alt="Boh">
-            </div>
-
-            <section id="contacts" class="contacts">
-                <div class="container contacts-content">
-                    <div class="contacts-about">
-                        <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consequatur, corporis maxime distinctio iusto placeat quis molestiae, voluptatibus assumenda reprehenderit dignissimos dolorem perspiciatis, tempora eveniet natus. Explicabo sapiente fugiat expedita.</p>
-                    </div>
-
-                    <div class="contacts-form">
-                        <form name="contacts" netlify>
-                            <label class="input-label" for="">Nome e Cognome</label>
-                            <input class="input-field" type="text" name="nomeecognome" placeholder="nome e cognome" required>
-
-                            <label class="input-label" for="">Email</label>
-                            <input class="input-field" type="email" name="email" placeholder="indirizzo@email" required>
-
-                            <label class="input-label" for="">Motivo della richiesta</label>
-                            <input class="input-field" type="text" name="motivodellarichiesta" placeholder="titolo"required>
-
-                            <label class="input-label" for="">Testo <span>Optional (max 500 lenght)</span></label>
-                            <textarea class="input-text-area" name="testo" placeholder="inserisci il testo" maxlength="500"></textarea>
-
-                            <button class="button">Inviare</button>
-                        </form>
-                    </div>
-                </div>
-            </section> 
-
-            <footer class="footer">
-                <div class="container">
-                    <div class="copyright">Alexia Nottoli copyright © 2024</div>
-                </div>
-            </footer>
-
+      <a class="anchors" id="works"></a>
+      <div class="container">
+        <div id="pulsanti" class="works-item">
+          <div class="works-item-tags">Che / Cacata / 2024</div>
+          <h2>Titolo h2</h2>
         </div>
-    </section>
 
-</body>
+        <div class="work-info">
+          <div class="work-info-label">About</div>
+          <div class="work-info-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur, necessitatibus.
+            </p>
+          </div>
+        </div>
+
+        <div class="work-info">
+          <div class="work-info-label">Output</div>
+          <div class="work-info-content">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+              officia aliquam nesciunt. Ducimus natus, quae vero reprehenderit
+              blanditiis autem temporibus aperiam, voluptate, rem delectus optio
+              culpa maiores quo modi dolorem!
+            </p>
+          </div>
+        </div>
+
+        <div class="images">
+          <img
+            class="image-right"
+            src="img/pexels-sohi-807598.jpg"
+            alt="Foglie"
+          />
+          <img src="img/DwellDone. (2).png" alt="logo" />
+          <img class="image-left" src="img/4.png" alt="Boh" />
+        </div>
+
+        <section id="contacts" class="contacts">
+          <div class="container contacts-content">
+            <div class="contacts-about">
+              <h2>About</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                consequatur, corporis maxime distinctio iusto placeat quis
+                molestiae, voluptatibus assumenda reprehenderit dignissimos
+                dolorem perspiciatis, tempora eveniet natus. Explicabo sapiente
+                fugiat expedita.
+              </p>
+            </div>
+
+            <div class="contacts-form">
+              <form name="contacts" netlify>
+                <label class="input-label" for="">Nome e Cognome</label>
+                <input
+                  class="input-field"
+                  type="text"
+                  name="nomeecognome"
+                  placeholder="nome e cognome"
+                  required
+                />
+
+                <label class="input-label" for="">Email</label>
+                <input
+                  class="input-field"
+                  type="email"
+                  name="email"
+                  placeholder="indirizzo@email"
+                  required
+                />
+
+                <label class="input-label" for="">Motivo della richiesta</label>
+                <input
+                  class="input-field"
+                  type="text"
+                  name="motivodellarichiesta"
+                  placeholder="titolo"
+                  required
+                />
+
+                <label class="input-label" for=""
+                  >Testo <span>Optional (max 500 lenght)</span></label
+                >
+                <textarea
+                  class="input-text-area"
+                  name="testo"
+                  placeholder="inserisci il testo"
+                  maxlength="500"
+                ></textarea>
+
+                <button class="button">Inviare</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="copyright">Alexia Nottoli copyright © 2024</div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
 </html>
